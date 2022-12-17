@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><Forms-lesson6></title>
+
+</head>
+<body>
+    <form action="/forms.html" method="get">
+    <label>
+        User 
+        <Input 
+        type="Text" 
+        required
+        name="User" 
+        placeholder="Enter the user name" /><br />
+    </label>
+        Password 
+    <label for="form-password"></label>
+        <Input 
+        id="form-password"
+        type="Password" 
+        name="Password" 
+        placeholder="Enter the password"><br />
+
+        <br />
+    <label for="form-checkbox">Keep login in</label>
+        <input type="checkbox" id="form-checkbox" />
+        <br />
+        Comment 
+        <textarea name="comment" rows="10" cols="40"></textarea><br />
+
+        Select
+        <select name="type" size="3" multiple>
+            <option></option>
+        <option value="type_1">Type 1</option>
+        <option value="type_2">Type 2</option>
+        <option value="type_3">Type 3</option>
+
+        </select>
+
+        
+       
+
+        Login
+        <input type="submit" value="Login" />
+
+
+    </form>
+
+
+</body>
